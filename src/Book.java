@@ -33,7 +33,6 @@ public class Book {
                 ", genre='" + genre + '\'' +
                 ", totalPage=" + totalPage +
                 '}';
-
     }
 
     public static final String askIfContinueWithBookInfo = "Would you like enter book information? (Y/N)";

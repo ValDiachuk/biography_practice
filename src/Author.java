@@ -55,6 +55,5 @@ public class Author {
     public static final String askLastNameOfAuthor = "What is your favorite author’s last name?";
     public static final String askCountry = "Where is your favorite author from??";
     public static final String askIsAlive = "Is your favorite author alive? Y/N";
-
     public static final String askHowOld = "How old is your favorite author?";
 }
