@@ -82,12 +82,21 @@ public class Biography {
             break;
         } while (true);
 
-        System.out.println(author);
+        /*
+        System.out.println("Author's information = " + author);
         if(!author.listOfBooks.isEmpty()){
-            books.forEach(System.out::println);
+        System.out.println("Author's books are as listed below:");
+        books.forEach(System.out::println);
+         */
+
+        System.out.println("Author's information = " + author);
+        System.out.println("Author's books are as listed below:");
+        for (Book book : books) {
+            System.out.println(book);
+
         }
-
     }
-
 }
+
+
 
